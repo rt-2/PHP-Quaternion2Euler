@@ -5,7 +5,7 @@
 //      Url: https://github.com/rt-2/PHP-Quaternion2Euler
 //
 
-function Quaternion2Euler2($x, $y, $z, $w) {
+function Quaternion2Euler($x, $y, $z, $w) {
     $ysqr = $y * $y;
 
     $t0 = +2.0 * ($w * $x + $y * $z);
